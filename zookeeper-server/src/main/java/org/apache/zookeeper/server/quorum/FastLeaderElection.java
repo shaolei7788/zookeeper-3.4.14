@@ -343,7 +343,6 @@ public class FastLeaderElection implements Election {
                             if(LOG.isInfoEnabled()){
                                 printNotification(n);
                             }
-
                             /*
                              * If this server is looking, then send proposed leader
                              */
